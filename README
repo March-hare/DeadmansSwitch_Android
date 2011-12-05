@@ -1,0 +1,44 @@
+Work on this project has only just begun, and anyone who feels up for the
+challenge is more than welcome to help out. 
+
+The design concept thus far is to create a traditional Dead Man's Switch,
+for which the user will be capable of choosing the amount of time before
+the switch is activated and the preconfigured actions are executed 
+automatically by the program. Implementation features for configurable
+executable actions should include tasks like deleting the Contact List on
+the user's phone, deleting emails (either on the phone or through ssh on
+a remote server), deleting all contents of a remote server (or shutting
+it down in the case of a remote server with full-disk encryption which
+has sensitive information). Features should be added depending on what
+activists will need from a Dead Man's Switch in the event of arrest or
+incapacitation.
+
+It was discussed among the developers involved with March Hare 
+Communications that, in the United States, activists' phones are often
+imaged upon intake to jail or other "correctional" facilities, which
+requires the phone to be shut down. This creates problems for the 
+design implementation in this application, because, in the event that
+the user's phone is turned off, the Dead Man's Switch would be unable
+to execute the specified tasks. The only way I can imagine getting 
+around this is to set up a server somewhere, which stores a set of
+actions to be taken in the event that the user's phone does not contact
+the server to postpone events within the set ammount of time. A useful
+thing to do with this as well would be to have the application tell
+the phone to send out a zomg-my-phone-is-dying message when the 
+battery reaches a critical level, so that the user's affinity group
+at least has some information that the Dead Man's Switch may have
+been triggered due to the user's phone being dead.
+
+// Version History
+__________________
+0.0.1
+__________________
+* Wrote timer function with user configurable time before switch is
+  activated
+* Switch being activated doesn't do anything at all at this point
+  except display a message to the user which reads "Switch Activated."
+  Hella useful, right? Shut up, I'm working on it.
+* The main screen of the application at this point simply says, "Fuck
+  tha five oh" and nothing more, and buttons and interfaces have not
+  yet been configured to transfer the user to new activities.
+ 
