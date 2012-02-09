@@ -35,7 +35,8 @@ public class DeadManSwitch extends Activity {
 	setContentView(tv);
 
     }
-    /** Main button to prove the person is still alive.*/
+
+    /** Main method for creating buttons. */
     public View.OnClickListener CreateOnClickListener(final Context context, final Class DeadManSwitch) {
 	View.OnClickListener btnlistener = new View.OnClickListener() {
 		public void onClick(View v) {

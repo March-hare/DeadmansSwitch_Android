@@ -4,10 +4,28 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="Hello World, DeadManSwitch"
-    />
+  <TextView  
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Hello World, DeadManSwitch"
+      />
+  <Button
+      android:id="@+id/alive_button"
+      android:text="I'm alive!"
+      android:layout_width="250px"
+      android:layout_height="100px"
+      />
+  <EditText
+      android:id="@+id/alive_passwd"
+      android:singleLine="true"
+      android:password="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      />
+  <TextView
+      android:id="@+id/alive_result"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      />
 </LinearLayout>
 

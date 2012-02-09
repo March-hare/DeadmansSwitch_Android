@@ -1,4 +1,4 @@
-/home/isis/dev/marchhare/deadmanswitch/gen/org/marchhare/deadmanswitch/R.java \
- : /home/isis/dev/marchhare/deadmanswitch/res/layout/main.xml \
-/home/isis/dev/marchhare/deadmanswitch/res/values/strings.xml \
-/home/isis/dev/marchhare/deadmanswitch/AndroidManifest.xml \
+/home/isis/dev/marchhare/DeadmansSwitch_Android/deadmanswitch/gen/org/marchhare/deadmanswitch/R.java \
+ : /home/isis/dev/marchhare/DeadmansSwitch_Android/deadmanswitch/res/values/strings.xml \
+/home/isis/dev/marchhare/DeadmansSwitch_Android/deadmanswitch/res/layout/main.xml \
+/home/isis/dev/marchhare/DeadmansSwitch_Android/deadmanswitch/AndroidManifest.xml \
