@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<AbsoluteLayout
+    android:id="@+id/widget34"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-  <TextView  
-      android:layout_width="fill_parent" 
-      android:layout_height="wrap_content" 
-      android:text="Hello World, DeadManSwitch"
-      />
-  <Button
-      android:id="@+id/alive_button"
-      android:text="I'm alive!"
-      android:layout_width="250px"
-      android:layout_height="100px"
-      />
-  <EditText
-      android:id="@+id/alive_passwd"
-      android:singleLine="true"
-      android:password="true"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      />
-  <TextView
-      android:id="@+id/alive_result"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      />
-</LinearLayout>
-
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:id="@+id/enter_passwd"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="Please enter your passphrase to continue:"
+    android:typeface="sans"
+    android:layout_x="5dp"
+    android:layout_y="171dp" />
+<Button
+    android:id="@+id/alive_button"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="@string/is_alive"
+    android:layout_x="211dp"
+    android:layout_y="199dp" />
+<EditText
+    android:id="@+id/alive_passwd"
+    android:layout_width="207px"
+    android:layout_height="51px"
+    android:password="true"
+    android:layout_x="3dp"
+    android:layout_y="199dp" />
+<TextView
+    android:id="@+id/alive_result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="-1dp"
+    android:layout_y="-1dp" />
+</AbsoluteLayout>

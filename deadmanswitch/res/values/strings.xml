@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DeadManSwitch</string>
+  <string
+      name="developer_name"
+      >Isis Lovecruft</string>
+  <string
+      name="developer_contact"
+      >isis@hackbloc.org</string>
+  <string
+      name="org_info"
+      >March Hare Communication\'s Collective</string>
+  <string
+      name="app_name"
+      >Dead Man\'s Switch</string>
+  <string
+      name="is_alive"
+      >I\'m alive!</string>
+  <string
+      name="passwd_enter"
+      >Please enter your passphrase to continue:</string>
 </resources>
