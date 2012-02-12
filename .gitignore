@@ -1,0 +1,4 @@
+*.properties
+.project
+.classpath
+.settings/
